@@ -1,0 +1,14 @@
+Store data inside the computer
+   1. temporary: RAM [MEMORY] --- VARIABLE [LOCATION INSIDE THE RAM] 
+   2. permanent: HARD DISK --- FILE [UNSTRUCTURED DATA & SMALL DATA] OR DATABASE [STRUCTURED & LARGE DATA]
+file :-  Chunk of memory block that is used to store small amount of unstructured data.
+file handling:- Process to manage a file through a program is called file handling. It will include : 
+1. create a file: open('name','mode'); name.write("message"); name.close()
+2. open a file
+3. read data from file
+4. write data over the file 
+5. append data over the file 
+6. copy the file 
+7. delete the file 
+8. check properties of the file 
+9. renaming the file 

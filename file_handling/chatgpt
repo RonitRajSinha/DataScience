@@ -1,0 +1,35 @@
+customer = input("Enter Your Name: ")
+phone = input("Enter Phone Number: ")  # Kept as string for filename and formatting
+product = input("Enter Product Name: ")
+price = float(input("Enter Price: "))
+qnt = int(input("Enter Quantity: "))
+
+subtotal = price * qnt
+gst = subtotal * 0.18  # 18% GST
+total = subtotal + gst
+
+# Create a clean formatted bill layout
+bill_content = f"""----------------------------------------
+             CUSTOMER BILL               
+----------------------------------------
+Customer Name : {customer}
+Phone Number  : {phone}
+Product Name  : {product}
+Price         : {price}
+Quantity      : {qnt}
+----------------------------------------
+Subtotal      : {subtotal:.2f}
+GST (18%)     : {gst:.2f}
+Total Amount  : {total:.2f}
+----------------------------------------
+"""
+
+# Display the bill on the screen
+print(bill_content)
+
+# Save the bill to a text file using Name + Phone
+filename = f"{customer}_{phone}.txt"
+with open(filename, "w") as file:
+  file.write(bill_content)
+
+print(f"Bill successfully saved as '{filename}'")

@@ -1,0 +1,18 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Secrets and personal information
+.env
+password.txt
+Ronit/ContactLog.txt
+Ronit/Sanu22.txt
+ronit.txt
+
+# Local temporary files
+tempCodeRunnerFile.py

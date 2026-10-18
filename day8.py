@@ -1,0 +1,17 @@
+product_name=input("Enter the PRODUCT Name: ")
+price=int(input("Enter the Rate: "))
+no=int(input("Enter No.: "))
+total=price*no
+GST=total*18//100
+print('='*50)
+print("INVOICE")
+print("Name"   ,"Price   ","No.   ","Subtotal   ","GST@18%   ","Total")
+print(product_name,"   ",price,"   ",no,"   ",total,"   ",GST,"            ",total+GST)
+print()
+print()
+print()
+print()
+print()
+print()
+print()
+print('='*50)

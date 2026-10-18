@@ -1,0 +1,9 @@
+application used for data science
+1. Excel[office 2024/365]
+2.powerBI
+3.Tabluea
+4.Mysql
+5.MongoDB
+6.Python
+8.vs code
+7.Git

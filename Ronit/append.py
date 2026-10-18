@@ -1,0 +1,5 @@
+msg=input("Enter Msg to append in the file : ")
+file=open("notes.txt",'a')
+file.write("\n")
+file.write(msg)
+file.close()

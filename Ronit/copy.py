@@ -1,0 +1,8 @@
+sf=input("Enter name of file : ")
+tf=input("Enter name of target file : ")
+f1=open(sf,'r')
+f2=open(tf,'w')
+data=f1.read()
+f2.write(data)
+f2.close()
+f1.close()

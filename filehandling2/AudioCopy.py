@@ -1,0 +1,6 @@
+sa=open("grand_project-wonders-of-the-earth-550792.mp3",'rb')
+data=sa.read()
+ta=open("FIP.mp3",'wb')
+ta.write(data)
+ta.close()
+sa.close()
